@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "title": "Check IRS EIN",
+  "description": "Validate EINs via the IRS API",
+  "commands": [
+    {
+      "name": "check-ein",
+      "title": "Check EIN",
+      "description": "Check if an EIN is a valid IRS-registered nonprofit",
+      "mode": "no-view",
+      "icon": "💼",
+      "path": "src/check-ein.ts",
+      "arguments": [
+        {
+          "name": "ein",
+          "placeholder": "Enter EIN (e.g. 452313408)",
+          "type": "text",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
