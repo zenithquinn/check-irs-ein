@@ -12,6 +12,20 @@
       "title": "Search Ein",
       "description": "Validate if an EIN is a valid nonprofit",
       "mode": "no-view"
+    },
+    {
+      "name": "check-ein",
+      "title": "Check EIN",
+      "description": "Check if an EIN is a valid IRS-registered nonprofit",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "ein",
+          "placeholder": "Enter EIN (e.g. 452313408)",
+          "type": "text",
+          "required": true
+        }
+      ]
     }
   ],
   "dependencies": {
